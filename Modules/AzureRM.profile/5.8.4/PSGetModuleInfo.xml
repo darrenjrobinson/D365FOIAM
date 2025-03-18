@@ -1,0 +1,193 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">AzureRM.profile</S>
+      <Version N="Version">5.8.4</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Profile credential management cmdlets for Azure Resource Manager</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-03-23T12:48:35+11:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2023-11-22T09:55:46.6039311+11:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>Profile</S>
+          <S>Authentication</S>
+          <S>Environment</S>
+          <S>Subscription</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Disable-AzureRmDataCollection</S>
+                <S>Disable-AzureRmContextAutosave</S>
+                <S>Enable-AzureRmDataCollection</S>
+                <S>Enable-AzureRmContextAutosave</S>
+                <S>Remove-AzureRmEnvironment</S>
+                <S>Get-AzureRmEnvironment</S>
+                <S>Set-AzureRmEnvironment</S>
+                <S>Add-AzureRmEnvironment</S>
+                <S>Get-AzureRmSubscription</S>
+                <S>Connect-AzureRmAccount</S>
+                <S>Get-AzureRmContext</S>
+                <S>Set-AzureRmContext</S>
+                <S>Import-AzureRmContext</S>
+                <S>Save-AzureRmContext</S>
+                <S>Get-AzureRmTenant</S>
+                <S>Send-Feedback</S>
+                <S>Resolve-AzureRmError</S>
+                <S>Select-AzureRmContext</S>
+                <S>Rename-AzureRmContext</S>
+                <S>Remove-AzureRmContext</S>
+                <S>Clear-AzureRmContext</S>
+                <S>Disconnect-AzureRmAccount</S>
+                <S>Get-AzureRmContextAutosaveSetting</S>
+                <S>Set-AzureRmDefault</S>
+                <S>Get-AzureRmDefault</S>
+                <S>Clear-AzureRmDefault</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Disable-AzureRmDataCollection</S>
+                <S>Disable-AzureRmContextAutosave</S>
+                <S>Enable-AzureRmDataCollection</S>
+                <S>Enable-AzureRmContextAutosave</S>
+                <S>Remove-AzureRmEnvironment</S>
+                <S>Get-AzureRmEnvironment</S>
+                <S>Set-AzureRmEnvironment</S>
+                <S>Add-AzureRmEnvironment</S>
+                <S>Get-AzureRmSubscription</S>
+                <S>Connect-AzureRmAccount</S>
+                <S>Get-AzureRmContext</S>
+                <S>Set-AzureRmContext</S>
+                <S>Import-AzureRmContext</S>
+                <S>Save-AzureRmContext</S>
+                <S>Get-AzureRmTenant</S>
+                <S>Send-Feedback</S>
+                <S>Resolve-AzureRmError</S>
+                <S>Select-AzureRmContext</S>
+                <S>Rename-AzureRmContext</S>
+                <S>Remove-AzureRmContext</S>
+                <S>Clear-AzureRmContext</S>
+                <S>Disconnect-AzureRmAccount</S>
+                <S>Get-AzureRmContextAutosaveSetting</S>
+                <S>Set-AzureRmDefault</S>
+                <S>Get-AzureRmDefault</S>
+                <S>Clear-AzureRmDefault</S>
+              </LST>
+            </Obj>
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">Microsoft Azure PowerShell - Profile service cmdlets._x000D__x000A_This module is outdated and will go out of support on 29 February 2024._x000D__x000A_The Az.Accounts module has all the capabilities of AzureRM.Profile and provides the following improvements:_x000D__x000A_* Az.Accounts takes advantage of greater security with token cache encryption and improved authentication._x000D__x000A_* Availability in Azure Cloud Shell and on Linux and macOS._x000D__x000A_We encourage you to start using the Az module as soon as possible to take advantage of these improvements._x000D__x000A_[Update your scripts](https://aka.ms/azpsmigrate) that use AzureRM PowerShell modules to use Az PowerShell modules by 29 February 2024. To automatically update your scripts, follow the [quickstart guide](https://aka.ms/azpsmigratequick).</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Profile credential management cmdlets for Azure Resource Manager</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">Microsoft Azure PowerShell - Profile service cmdlets._x000D__x000A_This module is outdated and will go out of support on 29 February 2024._x000D__x000A_The Az.Accounts module has all the capabilities of AzureRM.Profile and provides the following improvements:_x000D__x000A_* Az.Accounts takes advantage of greater security with token cache encryption and improved authentication._x000D__x000A_* Availability in Azure Cloud Shell and on Linux and macOS._x000D__x000A_We encourage you to start using the Az module as soon as possible to take advantage of these improvements._x000D__x000A_[Update your scripts](https://aka.ms/azpsmigrate) that use AzureRM PowerShell modules to use Az PowerShell modules by 29 February 2024. To automatically update your scripts, follow the [quickstart guide](https://aka.ms/azpsmigratequick).</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">36456264</S>
+          <S N="downloadCount">95506677</S>
+          <S N="packageSize">3163507</S>
+          <S N="published">23/03/2021 12:48:35 PM +11:00</S>
+          <S N="created">23/03/2021 12:48:35 PM +11:00</S>
+          <S N="lastUpdated">21/11/2023 10:52:41 PM +11:00</S>
+          <S N="tags">Azure ResourceManager ARM Profile Authentication Environment Subscription PSModule PSCmdlet_Disable-AzureRmDataCollection PSCommand_Disable-AzureRmDataCollection PSCmdlet_Disable-AzureRmContextAutosave PSCommand_Disable-AzureRmContextAutosave PSCmdlet_Enable-AzureRmDataCollection PSCommand_Enable-AzureRmDataCollection PSCmdlet_Enable-AzureRmContextAutosave PSCommand_Enable-AzureRmContextAutosave PSCmdlet_Remove-AzureRmEnvironment PSCommand_Remove-AzureRmEnvironment PSCmdlet_Get-AzureRmEnvironment PSCommand_Get-AzureRmEnvironment PSCmdlet_Set-AzureRmEnvironment PSCommand_Set-AzureRmEnvironment PSCmdlet_Add-AzureRmEnvironment PSCommand_Add-AzureRmEnvironment PSCmdlet_Get-AzureRmSubscription PSCommand_Get-AzureRmSubscription PSCmdlet_Connect-AzureRmAccount PSCommand_Connect-AzureRmAccount PSCmdlet_Get-AzureRmContext PSCommand_Get-AzureRmContext PSCmdlet_Set-AzureRmContext PSCommand_Set-AzureRmContext PSCmdlet_Import-AzureRmContext PSCommand_Import-AzureRmContext PSCmdlet_Save-AzureRmContext PSCommand_Save-AzureRmContext PSCmdlet_Get-AzureRmTenant PSCommand_Get-AzureRmTenant PSCmdlet_Send-Feedback PSCommand_Send-Feedback PSCmdlet_Resolve-AzureRmError PSCommand_Resolve-AzureRmError PSCmdlet_Select-AzureRmContext PSCommand_Select-AzureRmContext PSCmdlet_Rename-AzureRmContext PSCommand_Rename-AzureRmContext PSCmdlet_Remove-AzureRmContext PSCommand_Remove-AzureRmContext PSCmdlet_Clear-AzureRmContext PSCommand_Clear-AzureRmContext PSCmdlet_Disconnect-AzureRmAccount PSCommand_Disconnect-AzureRmAccount PSCmdlet_Get-AzureRmContextAutosaveSetting PSCommand_Get-AzureRmContextAutosaveSetting PSCmdlet_Set-AzureRmDefault PSCommand_Set-AzureRmDefault PSCmdlet_Get-AzureRmDefault PSCommand_Get-AzureRmDefault PSCmdlet_Clear-AzureRmDefault PSCommand_Clear-AzureRmDefault PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2023-11-21T22:52:41Z</S>
+          <S N="NormalizedVersion">5.8.4</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">AzureRM.Profile.nuspec|AzureRM.Profile.psd1|AzureRM.Profile.psm1|Hyak.Common.dll|Microsoft.ApplicationInsights.dll|Microsoft.Azure.Commands.Common.Aks.dll|Microsoft.Azure.Commands.Common.Authentication.Abstractions.dll|Microsoft.Azure.Commands.Common.Authentication.dll|Microsoft.Azure.Commands.Common.Authentication.ResourceManager.dll|Microsoft.Azure.Commands.Common.Authorization.dll|Microsoft.Azure.Commands.Common.Compute.dll|Microsoft.Azure.Commands.Common.Graph.RBAC.dll|Microsoft.Azure.Commands.Common.KeyVault.dll|Microsoft.Azure.Commands.Common.Network.dll|Microsoft.Azure.Commands.Common.Storage.Management.dll|Microsoft.Azure.Commands.Common.WebSites.dll|Microsoft.Azure.Commands.Profile.Desktop.types.ps1xml|Microsoft.Azure.Commands.Profile.dll|Microsoft.Azure.Commands.Profile.dll-Help.xml|Microsoft.Azure.Commands.Profile.format.ps1xml|Microsoft.Azure.Commands.Profile.generated.format.ps1xml|Microsoft.Azure.Commands.ResourceManager.Common.dll|Microsoft.Azure.Common.dll|Microsoft.Azure.Common.NetFramework.dll|Microsoft.Azure.KeyVault.Core.dll|Microsoft.IdentityModel.Clients.ActiveDirectory.dll|Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll|Microsoft.Rest.ClientRuntime.Azure.Authentication.dll|Microsoft.Rest.ClientRuntime.Azure.dll|Microsoft.Rest.ClientRuntime.dll|Microsoft.Threading.Tasks.dll|Microsoft.Threading.Tasks.Extensions.Desktop.dll|Microsoft.Threading.Tasks.Extensions.dll|Microsoft.WindowsAzure.Commands.Common.dll|Microsoft.WindowsAzure.Commands.Common.Storage.dll|Microsoft.WindowsAzure.Management.dll|Newtonsoft.Json.10.dll|Newtonsoft.Json.dll|System.Net.Http.Extensions.dll|System.Net.Http.Primitives.dll|StartupScripts\AzureRmError.ps1</S>
+          <S N="GUID">342714fc-4009-4863-8afb-a9067e3db04b</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\darren.a.robinson\Documents\PowerShell\Modules\AzureRM.profile\5.8.4</S>
+    </MS>
+  </Obj>
+</Objs>

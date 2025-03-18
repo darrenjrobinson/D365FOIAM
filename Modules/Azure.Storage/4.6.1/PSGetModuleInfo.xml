@@ -1,0 +1,292 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Azure.Storage</S>
+      <Version N="Version">4.6.1</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - Storage service cmdlets. Manages blobs, queues, tables and files in Microsoft Azure storage accounts</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2018-10-09T18:00:35+11:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2023-11-22T09:55:52.5099839+11:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>Storage</S>
+          <S>Blob</S>
+          <S>Queue</S>
+          <S>Table</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureStorageTable</S>
+                <S>New-AzureStorageTableSASToken</S>
+                <S>New-AzureStorageTableStoredAccessPolicy</S>
+                <S>New-AzureStorageTable</S>
+                <S>Remove-AzureStorageTableStoredAccessPolicy</S>
+                <S>Remove-AzureStorageTable</S>
+                <S>Get-AzureStorageTableStoredAccessPolicy</S>
+                <S>Set-AzureStorageTableStoredAccessPolicy</S>
+                <S>Get-AzureStorageQueue</S>
+                <S>New-AzureStorageQueue</S>
+                <S>Remove-AzureStorageQueue</S>
+                <S>Get-AzureStorageQueueStoredAccessPolicy</S>
+                <S>New-AzureStorageQueueSASToken</S>
+                <S>New-AzureStorageQueueStoredAccessPolicy</S>
+                <S>Remove-AzureStorageQueueStoredAccessPolicy</S>
+                <S>Set-AzureStorageQueueStoredAccessPolicy</S>
+                <S>Get-AzureStorageFile</S>
+                <S>Get-AzureStorageFileContent</S>
+                <S>Get-AzureStorageFileCopyState</S>
+                <S>Get-AzureStorageShare</S>
+                <S>Get-AzureStorageShareStoredAccessPolicy</S>
+                <S>New-AzureStorageDirectory</S>
+                <S>New-AzureStorageFileSASToken</S>
+                <S>New-AzureStorageShare</S>
+                <S>New-AzureStorageShareSASToken</S>
+                <S>New-AzureStorageShareStoredAccessPolicy</S>
+                <S>Remove-AzureStorageDirectory</S>
+                <S>Remove-AzureStorageFile</S>
+                <S>Remove-AzureStorageShare</S>
+                <S>Remove-AzureStorageShareStoredAccessPolicy</S>
+                <S>Set-AzureStorageFileContent</S>
+                <S>Set-AzureStorageShareQuota</S>
+                <S>Set-AzureStorageShareStoredAccessPolicy</S>
+                <S>Start-AzureStorageFileCopy</S>
+                <S>Stop-AzureStorageFileCopy</S>
+                <S>New-AzureStorageAccountSASToken</S>
+                <S>Set-AzureStorageCORSRule</S>
+                <S>Get-AzureStorageCORSRule</S>
+                <S>Get-AzureStorageServiceLoggingProperty</S>
+                <S>Get-AzureStorageServiceMetricsProperty</S>
+                <S>Remove-AzureStorageCORSRule</S>
+                <S>Set-AzureStorageServiceLoggingProperty</S>
+                <S>Set-AzureStorageServiceMetricsProperty</S>
+                <S>New-AzureStorageContext</S>
+                <S>Set-AzureStorageContainerAcl</S>
+                <S>Remove-AzureStorageBlob</S>
+                <S>Set-AzureStorageBlobContent</S>
+                <S>Get-AzureStorageBlob</S>
+                <S>Get-AzureStorageBlobContent</S>
+                <S>Get-AzureStorageBlobCopyState</S>
+                <S>Get-AzureStorageContainer</S>
+                <S>Get-AzureStorageContainerStoredAccessPolicy</S>
+                <S>New-AzureStorageBlobSASToken</S>
+                <S>New-AzureStorageContainer</S>
+                <S>New-AzureStorageContainerSASToken</S>
+                <S>New-AzureStorageContainerStoredAccessPolicy</S>
+                <S>Remove-AzureStorageContainer</S>
+                <S>Remove-AzureStorageContainerStoredAccessPolicy</S>
+                <S>Set-AzureStorageContainerStoredAccessPolicy</S>
+                <S>Start-AzureStorageBlobCopy</S>
+                <S>Start-AzureStorageBlobIncrementalCopy</S>
+                <S>Stop-AzureStorageBlobCopy</S>
+                <S>Update-AzureStorageServiceProperty</S>
+                <S>Get-AzureStorageServiceProperty</S>
+                <S>Enable-AzureStorageDeleteRetentionPolicy</S>
+                <S>Disable-AzureStorageDeleteRetentionPolicy</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-AzureStorageTable</S>
+                <S>New-AzureStorageTableSASToken</S>
+                <S>New-AzureStorageTableStoredAccessPolicy</S>
+                <S>New-AzureStorageTable</S>
+                <S>Remove-AzureStorageTableStoredAccessPolicy</S>
+                <S>Remove-AzureStorageTable</S>
+                <S>Get-AzureStorageTableStoredAccessPolicy</S>
+                <S>Set-AzureStorageTableStoredAccessPolicy</S>
+                <S>Get-AzureStorageQueue</S>
+                <S>New-AzureStorageQueue</S>
+                <S>Remove-AzureStorageQueue</S>
+                <S>Get-AzureStorageQueueStoredAccessPolicy</S>
+                <S>New-AzureStorageQueueSASToken</S>
+                <S>New-AzureStorageQueueStoredAccessPolicy</S>
+                <S>Remove-AzureStorageQueueStoredAccessPolicy</S>
+                <S>Set-AzureStorageQueueStoredAccessPolicy</S>
+                <S>Get-AzureStorageFile</S>
+                <S>Get-AzureStorageFileContent</S>
+                <S>Get-AzureStorageFileCopyState</S>
+                <S>Get-AzureStorageShare</S>
+                <S>Get-AzureStorageShareStoredAccessPolicy</S>
+                <S>New-AzureStorageDirectory</S>
+                <S>New-AzureStorageFileSASToken</S>
+                <S>New-AzureStorageShare</S>
+                <S>New-AzureStorageShareSASToken</S>
+                <S>New-AzureStorageShareStoredAccessPolicy</S>
+                <S>Remove-AzureStorageDirectory</S>
+                <S>Remove-AzureStorageFile</S>
+                <S>Remove-AzureStorageShare</S>
+                <S>Remove-AzureStorageShareStoredAccessPolicy</S>
+                <S>Set-AzureStorageFileContent</S>
+                <S>Set-AzureStorageShareQuota</S>
+                <S>Set-AzureStorageShareStoredAccessPolicy</S>
+                <S>Start-AzureStorageFileCopy</S>
+                <S>Stop-AzureStorageFileCopy</S>
+                <S>New-AzureStorageAccountSASToken</S>
+                <S>Set-AzureStorageCORSRule</S>
+                <S>Get-AzureStorageCORSRule</S>
+                <S>Get-AzureStorageServiceLoggingProperty</S>
+                <S>Get-AzureStorageServiceMetricsProperty</S>
+                <S>Remove-AzureStorageCORSRule</S>
+                <S>Set-AzureStorageServiceLoggingProperty</S>
+                <S>Set-AzureStorageServiceMetricsProperty</S>
+                <S>New-AzureStorageContext</S>
+                <S>Set-AzureStorageContainerAcl</S>
+                <S>Remove-AzureStorageBlob</S>
+                <S>Set-AzureStorageBlobContent</S>
+                <S>Get-AzureStorageBlob</S>
+                <S>Get-AzureStorageBlobContent</S>
+                <S>Get-AzureStorageBlobCopyState</S>
+                <S>Get-AzureStorageContainer</S>
+                <S>Get-AzureStorageContainerStoredAccessPolicy</S>
+                <S>New-AzureStorageBlobSASToken</S>
+                <S>New-AzureStorageContainer</S>
+                <S>New-AzureStorageContainerSASToken</S>
+                <S>New-AzureStorageContainerStoredAccessPolicy</S>
+                <S>Remove-AzureStorageContainer</S>
+                <S>Remove-AzureStorageContainerStoredAccessPolicy</S>
+                <S>Set-AzureStorageContainerStoredAccessPolicy</S>
+                <S>Start-AzureStorageBlobCopy</S>
+                <S>Start-AzureStorageBlobIncrementalCopy</S>
+                <S>Stop-AzureStorageBlobCopy</S>
+                <S>Update-AzureStorageServiceProperty</S>
+                <S>Get-AzureStorageServiceProperty</S>
+                <S>Enable-AzureStorageDeleteRetentionPolicy</S>
+                <S>Disable-AzureStorageDeleteRetentionPolicy</S>
+              </LST>
+            </Obj>
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Fix Copy Blob/File won't copy metadata when destination has metadata issue_x000D__x000A_    - Start-AzureStorageBlobCopy_x000D__x000A_    - Start-AzureStorageFileCopy</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureRM.Profile</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">5.6.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureRM.Profile/5.6.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - Storage service cmdlets. Manages blobs, queues, tables and files in Microsoft Azure storage accounts</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Fix Copy Blob/File won't copy metadata when destination has metadata issue_x000D__x000A_    - Start-AzureStorageBlobCopy_x000D__x000A_    - Start-AzureStorageFileCopy</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">37729262</S>
+          <S N="downloadCount">53233811</S>
+          <S N="packageSize">5687791</S>
+          <S N="published">9/10/2018 6:00:35 PM +11:00</S>
+          <S N="created">9/10/2018 6:00:35 PM +11:00</S>
+          <S N="lastUpdated">21/11/2023 10:52:41 PM +11:00</S>
+          <S N="tags">Azure Storage Blob Queue Table PSModule PSCmdlet_Get-AzureStorageTable PSCommand_Get-AzureStorageTable PSCmdlet_New-AzureStorageTableSASToken PSCommand_New-AzureStorageTableSASToken PSCmdlet_New-AzureStorageTableStoredAccessPolicy PSCommand_New-AzureStorageTableStoredAccessPolicy PSCmdlet_New-AzureStorageTable PSCommand_New-AzureStorageTable PSCmdlet_Remove-AzureStorageTableStoredAccessPolicy PSCommand_Remove-AzureStorageTableStoredAccessPolicy PSCmdlet_Remove-AzureStorageTable PSCommand_Remove-AzureStorageTable PSCmdlet_Get-AzureStorageTableStoredAccessPolicy PSCommand_Get-AzureStorageTableStoredAccessPolicy PSCmdlet_Set-AzureStorageTableStoredAccessPolicy PSCommand_Set-AzureStorageTableStoredAccessPolicy PSCmdlet_Get-AzureStorageQueue PSCommand_Get-AzureStorageQueue PSCmdlet_New-AzureStorageQueue PSCommand_New-AzureStorageQueue PSCmdlet_Remove-AzureStorageQueue PSCommand_Remove-AzureStorageQueue PSCmdlet_Get-AzureStorageQueueStoredAccessPolicy PSCommand_Get-AzureStorageQueueStoredAccessPolicy PSCmdlet_New-AzureStorageQueueSASToken PSCommand_New-AzureStorageQueueSASToken PSCmdlet_New-AzureStorageQueueStoredAccessPolicy PSCommand_New-AzureStorageQueueStoredAccessPolicy PSCmdlet_Remove-AzureStorageQueueStoredAccessPolicy PSCommand_Remove-AzureStorageQueueStoredAccessPolicy PSCmdlet_Set-AzureStorageQueueStoredAccessPolicy PSCommand_Set-AzureStorageQueueStoredAccessPolicy PSCmdlet_Get-AzureStorageFile PSCommand_Get-AzureStorageFile PSCmdlet_Get-AzureStorageFileContent PSCommand_Get-AzureStorageFileContent PSCmdlet_Get-AzureStorageFileCopyState PSCommand_Get-AzureStorageFileCopyState PSCmdlet_Get-AzureStorageShare PSCommand_Get-AzureStorageShare PSCmdlet_Get-AzureStorageShareStoredAccessPolicy PSCommand_Get-AzureStorageShareStoredAccessPolicy PSCmdlet_New-AzureStorageDirectory PSCommand_New-AzureStorageDirectory PSCmdlet_New-AzureStorageFileSASToken PSCommand_New-AzureStorageFileSASToken PSCmdlet_New-AzureStorageShare PSCommand_New-AzureStorageShare PSCmdlet_New-AzureStorageShareSASToken PSCommand_New-AzureStorageShareSASToken PSCmdlet_New-AzureStorageShareStoredAccessPolicy PSCommand_New-AzureStorageShareStoredAccessPolicy PSCmdlet_Remove-AzureStorageDirectory PSCommand_Remove-AzureStorageDirectory PSCmdlet_Remove-AzureStorageFile PSCommand_Remove-AzureStorageFile PSCmdlet_Remove-AzureStorageShare PSCommand_Remove-AzureStorageShare PSCmdlet_Remove-AzureStorageShareStoredAccessPolicy PSCommand_Remove-AzureStorageShareStoredAccessPolicy PSCmdlet_Set-AzureStorageFileContent PSCommand_Set-AzureStorageFileContent PSCmdlet_Set-AzureStorageShareQuota PSCommand_Set-AzureStorageShareQuota PSCmdlet_Set-AzureStorageShareStoredAccessPolicy PSCommand_Set-AzureStorageShareStoredAccessPolicy PSCmdlet_Start-AzureStorageFileCopy PSCommand_Start-AzureStorageFileCopy PSCmdlet_Stop-AzureStorageFileCopy PSCommand_Stop-AzureStorageFileCopy PSCmdlet_New-AzureStorageAccountSASToken PSCommand_New-AzureStorageAccountSASToken PSCmdlet_Set-AzureStorageCORSRule PSCommand_Set-AzureStorageCORSRule PSCmdlet_Get-AzureStorageCORSRule PSCommand_Get-AzureStorageCORSRule PSCmdlet_Get-AzureStorageServiceLoggingProperty PSCommand_Get-AzureStorageServiceLoggingProperty PSCmdlet_Get-AzureStorageServiceMetricsProperty PSCommand_Get-AzureStorageServiceMetricsProperty PSCmdlet_Remove-AzureStorageCORSRule PSCommand_Remove-AzureStorageCORSRule PSCmdlet_Set-AzureStorageServiceLoggingProperty PSCommand_Set-AzureStorageServiceLoggingProperty PSCmdlet_Set-AzureStorageServiceMetricsProperty PSCommand_Set-AzureStorageServiceMetricsProperty PSCmdlet_New-AzureStorageContext PSCommand_New-AzureStorageContext PSCmdlet_Set-AzureStorageContainerAcl PSCommand_Set-AzureStorageContainerAcl PSCmdlet_Remove-AzureStorageBlob PSCommand_Remove-AzureStorageBlob PSCmdlet_Set-AzureStorageBlobContent PSCommand_Set-AzureStorageBlobContent PSCmdlet_Get-AzureStorageBlob PSCommand_Get-AzureStorageBlob PSCmdlet_Get-AzureStorageBlobContent PSCommand_Get-AzureStorageBlobContent PSCmdlet_Get-AzureStorageBlobCopyState PSCommand_Get-AzureStorageBlobCopyState PSCmdlet_Get-AzureStorageContainer PSCommand_Get-AzureStorageContainer PSCmdlet_Get-AzureStorageContainerStoredAccessPolicy PSCommand_Get-AzureStorageContainerStoredAccessPolicy PSCmdlet_New-AzureStorageBlobSASToken PSCommand_New-AzureStorageBlobSASToken PSCmdlet_New-AzureStorageContainer PSCommand_New-AzureStorageContainer PSCmdlet_New-AzureStorageContainerSASToken PSCommand_New-AzureStorageContainerSASToken PSCmdlet_New-AzureStorageContainerStoredAccessPolicy PSCommand_New-AzureStorageContainerStoredAccessPolicy PSCmdlet_Remove-AzureStorageContainer PSCommand_Remove-AzureStorageContainer PSCmdlet_Remove-AzureStorageContainerStoredAccessPolicy PSCommand_Remove-AzureStorageContainerStoredAccessPolicy PSCmdlet_Set-AzureStorageContainerStoredAccessPolicy PSCommand_Set-AzureStorageContainerStoredAccessPolicy PSCmdlet_Start-AzureStorageBlobCopy PSCommand_Start-AzureStorageBlobCopy PSCmdlet_Start-AzureStorageBlobIncrementalCopy PSCommand_Start-AzureStorageBlobIncrementalCopy PSCmdlet_Stop-AzureStorageBlobCopy PSCommand_Stop-AzureStorageBlobCopy PSCmdlet_Update-AzureStorageServiceProperty PSCommand_Update-AzureStorageServiceProperty PSCmdlet_Get-AzureStorageServiceProperty PSCommand_Get-AzureStorageServiceProperty PSCmdlet_Enable-AzureStorageDeleteRetentionPolicy PSCommand_Enable-AzureStorageDeleteRetentionPolicy PSCmdlet_Disable-AzureStorageDeleteRetentionPolicy PSCommand_Disable-AzureStorageDeleteRetentionPolicy PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2023-11-21T22:52:41Z</S>
+          <S N="NormalizedVersion">4.6.1</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Azure.Storage.nuspec|AutoMapper.dll|Azure.Storage.psd1|Azure.Storage.psm1|Hyak.Common.dll|Microsoft.ApplicationInsights.dll|Microsoft.Azure.Commands.Common.Authentication.Abstractions.dll|Microsoft.Azure.Commands.Common.Authentication.dll|Microsoft.Azure.Commands.Common.Authorization.dll|Microsoft.Azure.Commands.Common.Storage.Management.dll|Microsoft.Azure.Commands.ResourceManager.Common.dll|Microsoft.Azure.Common.dll|Microsoft.Azure.Common.NetFramework.dll|Microsoft.Azure.KeyVault.Core.dll|Microsoft.Azure.ResourceManager.dll|Microsoft.Data.Edm.dll|Microsoft.Data.OData.dll|Microsoft.Data.Services.Client.dll|Microsoft.IdentityModel.Clients.ActiveDirectory.dll|Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll|Microsoft.Rest.ClientRuntime.Azure.Authentication.dll|Microsoft.Rest.ClientRuntime.Azure.dll|Microsoft.Rest.ClientRuntime.dll|Microsoft.ServiceBus.dll|Microsoft.Threading.Tasks.dll|Microsoft.Threading.Tasks.Extensions.Desktop.dll|Microsoft.Threading.Tasks.Extensions.dll|Microsoft.WindowsAzure.Commands.Common.dll|Microsoft.WindowsAzure.Commands.Common.Storage.dll|Microsoft.WindowsAzure.Commands.Storage.dll|Microsoft.WindowsAzure.Commands.Storage.dll-Help.xml|Microsoft.WindowsAzure.Commands.Storage.format.ps1xml|Microsoft.WindowsAzure.Commands.Storage.generated.format.ps1xml|Microsoft.WindowsAzure.Commands.Storage.types.ps1xml|Microsoft.WindowsAzure.Configuration.dll|Microsoft.WindowsAzure.Management.Compute.dll|Microsoft.WindowsAzure.Management.dll|Microsoft.WindowsAzure.Management.ExpressRoute.dll|Microsoft.WindowsAzure.Management.MediaServices.dll|Microsoft.WindowsAzure.Management.Network.dll|Microsoft.WindowsAzure.Management.Scheduler.dll|Microsoft.WindowsAzure.Management.ServiceBus.dll|Microsoft.WindowsAzure.Management.Store.dll|Microsoft.WindowsAzure.Management.TrafficManager.dll|Microsoft.WindowsAzure.Management.WebSites.dll|Microsoft.WindowsAzure.Storage.DataMovement.dll|Microsoft.WindowsAzure.Storage.dll|Newtonsoft.Json.dll|System.Management.Automation.dll|System.Net.Http.Extensions.dll|System.Net.Http.Formatting.dll|System.Net.Http.Primitives.dll|System.Spatial.dll</S>
+          <S N="GUID">00612bca-fa22-401d-a671-9cc48b010e3b</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.5.2</S>
+          <S N="CLRVersion">4.0</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\darren.a.robinson\Documents\PowerShell\Modules\Azure.Storage\4.6.1</S>
+    </MS>
+  </Obj>
+</Objs>

@@ -1,0 +1,663 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">d365fo.tools</S>
+      <Version N="Version">0.6.79</Version>
+      <S N="Type">Module</S>
+      <S N="Description">A set of tools that will assist you when working with Dynamics 365 Finance &amp; Operations development / demo machines.</S>
+      <S N="Author">Mötz Jensen &amp; Rasmus Andersen</S>
+      <Obj N="CompanyName" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>splaxi</S>
+          <S>ITRasmus</S>
+        </LST>
+      </Obj>
+      <S N="Copyright">(c) 2018 Mötz Jensen &amp; Rasmus Andersen. All rights reserved.</S>
+      <DT N="PublishedDate">2023-05-11T14:07:06+10:00</DT>
+      <Obj N="InstalledDate" RefId="2">
+        <DT>2023-11-30T15:03:13.0699573+11:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="3">
+            <TN RefId="2">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://opensource.org/licenses/MIT</URI>
+      <URI N="ProjectUri">https://github.com/d365collaborative/d365fo.tools</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="4">
+        <TNRef RefId="1" />
+        <LST>
+          <S>d365fo</S>
+          <S>Dynamics365</S>
+          <S>D365</S>
+          <S>Finance&amp;Operations</S>
+          <S>FinanceOperations</S>
+          <S>FinanceAndOperations</S>
+          <S>Dynamics365FO</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="5">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-D365AzureStorageConfig</S>
+                <S>Add-D365BroadcastMessageConfig</S>
+                <S>Add-D365ModuleToRemove</S>
+                <S>Add-D365RsatWifConfigAuthorityThumbprint</S>
+                <S>Add-D365WindowsDefenderRules</S>
+                <S>Backup-D365DevConfig</S>
+                <S>Backup-D365MetaDataDir</S>
+                <S>Backup-D365Runbook</S>
+                <S>Backup-D365WebConfig</S>
+                <S>Clear-D365ActiveBroadcastMessageConfig</S>
+                <S>Clear-D365BacpacObject</S>
+                <S>Clear-D365BacpacTableData</S>
+                <S>Clear-D365MonitorData</S>
+                <S>Clear-D365TempDbTables</S>
+                <S>ConvertTo-D365Dacpac</S>
+                <S>Publish-D365SsrsReport</S>
+                <S>Disable-D365MaintenanceMode</S>
+                <S>Disable-D365SqlChangeTracking</S>
+                <S>Disable-D365User</S>
+                <S>Disable-D365Flight</S>
+                <S>Disable-D365Exception</S>
+                <S>Enable-D365Exception</S>
+                <S>Enable-D365MaintenanceMode</S>
+                <S>Enable-D365SqlChangeTracking</S>
+                <S>Enable-D365User</S>
+                <S>Enable-D365Flight</S>
+                <S>Export-D365BacpacModelFile</S>
+                <S>Export-D365Model</S>
+                <S>Export-D365SecurityDetails</S>
+                <S>Find-D365Command</S>
+                <S>Get-D365ActiveAzureStorageConfig</S>
+                <S>Get-D365ActiveBroadcastMessageConfig</S>
+                <S>Get-D365AOTObject</S>
+                <S>Get-D365AzureDevOpsNuget</S>
+                <S>Get-D365AzureStorageConfig</S>
+                <S>Get-D365AzureStorageFile</S>
+                <S>Get-D365AzureStorageUrl</S>
+                <S>Get-D365BacpacSqlOptions</S>
+                <S>Get-D365BacpacTable</S>
+                <S>Get-D365BroadcastMessage</S>
+                <S>Get-D365BroadcastMessageConfig</S>
+                <S>Get-D365ClickOnceTrustPrompt</S>
+                <S>Get-D365CompilerResult</S>
+                <S>Get-D365Database</S>
+                <S>Get-D365DatabaseAccess</S>
+                <S>Get-D365DecryptedWebConfig</S>
+                <S>Get-D365DefaultModelForNewProjects</S>
+                <S>Get-D365DotNetClass</S>
+                <S>Get-D365DotNetMethod</S>
+                <S>Get-D365Environment</S>
+                <S>Get-D365EnvironmentSettings</S>
+                <S>Get-D365EventTraceProvider</S>
+                <S>Get-D365ExternalIP</S>
+                <S>Get-D365JsonService</S>
+                <S>Get-D365InstalledHotfix</S>
+                <S>Get-D365InstalledPackage</S>
+                <S>Get-D365InstalledService</S>
+                <S>Get-D365InstanceName</S>
+                <S>Get-D365Label</S>
+                <S>Get-D365Language</S>
+                <S>Get-D365LabelFile</S>
+                <S>Get-D365LcsApiConfig</S>
+                <S>Get-D365LcsApiToken</S>
+                <S>Get-D365LcsAssetFile</S>
+                <S>Get-D365LcsSharedAssetFile</S>
+                <S>Get-D365LcsAssetValidationStatus</S>
+                <S>Get-D365LcsDatabaseBackups</S>
+                <S>Get-D365LcsDatabaseOperationStatus</S>
+                <S>Get-D365LcsDeploymentStatus</S>
+                <S>Get-D365LcsEnvironmentHistory</S>
+                <S>Get-D365LcsEnvironmentMetadata</S>
+                <S>Get-D365MaintenanceMode</S>
+                <S>Get-D365Model</S>
+                <S>Get-D365Module</S>
+                <S>Get-D365OfflineAuthenticationAdminEmail</S>
+                <S>Get-D365PackageBundleDetail</S>
+                <S>Get-D365PackageLabelResourceFile</S>
+                <S>Get-D365PackageLabelResources</S>
+                <S>Get-D365ProductInformation</S>
+                <S>Get-D365RsatCertificateThumbprint</S>
+                <S>Get-D365RsatPlaybackFile</S>
+                <S>Get-D365RsatSoapHostname</S>
+                <S>Get-D365Runbook</S>
+                <S>Get-D365RunbookId</S>
+                <S>Get-D365RunbookLogFile</S>
+                <S>Get-D365SDPCleanUp</S>
+                <S>Get-D365Table</S>
+                <S>Get-D365TableField</S>
+                <S>Get-D365TableSequence</S>
+                <S>Get-D365TablesInChangedTracking</S>
+                <S>Get-D365TfsUri</S>
+                <S>Get-D365TfsWorkspace</S>
+                <S>Get-D365Url</S>
+                <S>Get-D365User</S>
+                <S>Get-D365UserAuthenticationDetail</S>
+                <S>Get-D365VisualStudioCompilerResult</S>
+                <S>Get-D365WebServerType</S>
+                <S>Get-D365WindowsActivationStatus</S>
+                <S>Import-D365AadUser</S>
+                <S>Import-D365AadApplication</S>
+                <S>Import-D365Bacpac</S>
+                <S>Import-D365Dacpac</S>
+                <S>Import-D365Model</S>
+                <S>Import-D365ExternalUser</S>
+                <S>Import-D365RsatSelfServiceCertificates</S>
+                <S>Initialize-D365RsatCertificate</S>
+                <S>Install-D365SupportingSoftware</S>
+                <S>Invoke-D365AzCopyTransfer</S>
+                <S>Invoke-D365AzureDevOpsNugetPush</S>
+                <S>Invoke-D365AzureStorageDownload</S>
+                <S>Invoke-D365AzureStorageUpload</S>
+                <S>Invoke-D365CompilerResultAnalyzer</S>
+                <S>Invoke-D365DataFlush</S>
+                <S>Invoke-D365DbSync</S>
+                <S>Invoke-D365DbSyncPartial</S>
+                <S>Invoke-D365DbSyncModule</S>
+                <S>Invoke-D365GenerateReportAggregateDataEntity</S>
+                <S>Invoke-D365GenerateReportAggregateMeasure</S>
+                <S>Invoke-D365GenerateReportConfigKey</S>
+                <S>Invoke-D365GenerateReportConfigKeyGroup</S>
+                <S>Invoke-D365GenerateReportDataEntity</S>
+                <S>Invoke-D365GenerateReportDataEntityField</S>
+                <S>Invoke-D365GenerateReportKpi</S>
+                <S>Invoke-D365GenerateReportLicenseCode</S>
+                <S>Invoke-D365GenerateReportMenuItem</S>
+                <S>Invoke-D365GenerateReports</S>
+                <S>Invoke-D365GenerateReportSsrs</S>
+                <S>Invoke-D365GenerateReportTable</S>
+                <S>Invoke-D365GenerateReportWorkflowType</S>
+                <S>Invoke-D365InstallAzCopy</S>
+                <S>Invoke-D365InstallLicense</S>
+                <S>Invoke-D365InstallNuget</S>
+                <S>Invoke-D365InstallSqlPackage</S>
+                <S>Invoke-D365LcsApiRefreshToken</S>
+                <S>Invoke-D365LcsDatabaseExport</S>
+                <S>Invoke-D365LcsDatabaseRefresh</S>
+                <S>Invoke-D365LcsDeployment</S>
+                <S>Invoke-D365LcsEnvironmentStart</S>
+                <S>Invoke-D365LcsEnvironmentStop</S>
+                <S>Invoke-D365LcsUpload</S>
+                <S>Invoke-D365ModuleCompile</S>
+                <S>Invoke-D365ModuleLabelGeneration</S>
+                <S>Invoke-D365ModuleReportsCompile</S>
+                <S>Invoke-D365ModuleFullCompile</S>
+                <S>Invoke-D365ProcessModule</S>
+                <S>Invoke-D365ReArmWindows</S>
+                <S>Invoke-D365RunbookAnalyzer</S>
+                <S>Invoke-D365SDPInstall</S>
+                <S>Invoke-D365SCDPBundleInstall</S>
+                <S>Invoke-D365SeleniumDownload</S>
+                <S>Invoke-D365SysFlushAodCache</S>
+                <S>Invoke-D365SysRunnerClass</S>
+                <S>Invoke-D365SqlScript</S>
+                <S>Invoke-D365VisualStudioCompilerResultAnalyzer</S>
+                <S>Invoke-D365WinRmCertificateRotation</S>
+                <S>Invoke-D365TableBrowser</S>
+                <S>Invoke-D365BestPractice</S>
+                <S>New-D365Bacpac</S>
+                <S>New-D365CAReport</S>
+                <S>New-D365ISVLicense</S>
+                <S>New-D365ModuleToRemove</S>
+                <S>New-D365TopologyFile</S>
+                <S>Register-D365AzureStorageConfig</S>
+                <S>Remove-D365LcsAssetFile</S>
+                <S>Remove-D365BroadcastMessageConfig</S>
+                <S>Remove-D365Database</S>
+                <S>Remove-D365Model</S>
+                <S>Remove-D365User</S>
+                <S>Rename-D365Instance</S>
+                <S>Rename-D365ComputerName</S>
+                <S>Restart-D365Environment</S>
+                <S>Restore-D365DevConfig</S>
+                <S>Restore-D365WebConfig</S>
+                <S>Send-D365BroadcastMessage</S>
+                <S>Set-D365ActiveAzureStorageConfig</S>
+                <S>Set-D365ActiveBroadcastMessageConfig</S>
+                <S>Set-D365Admin</S>
+                <S>Set-D365AzCopyPath</S>
+                <S>Set-D365ClickOnceTrustPrompt</S>
+                <S>Set-D365DefaultModelForNewProjects</S>
+                <S>Set-D365FavoriteBookmark</S>
+                <S>Set-D365LcsApiConfig</S>
+                <S>Set-D365NugetPath</S>
+                <S>Set-D365OfflineAuthenticationAdminEmail</S>
+                <S>Set-D365RsatTier2Crypto</S>
+                <S>Set-D365RsatConfiguration</S>
+                <S>Set-D365SDPCleanUp</S>
+                <S>Set-D365StartPage</S>
+                <S>Set-D365SqlPackagePath</S>
+                <S>Set-D365SysAdmin</S>
+                <S>Set-D365WebConfigDatabase</S>
+                <S>Set-D365WebServerType</S>
+                <S>Set-D365TraceParserFileSize</S>
+                <S>Set-D365WorkstationMode</S>
+                <S>Set-D365FlightServiceCatalogId</S>
+                <S>Start-D365Environment</S>
+                <S>Start-D365EnvironmentV2</S>
+                <S>Start-D365EventTrace</S>
+                <S>Stop-D365Environment</S>
+                <S>Stop-D365EventTrace</S>
+                <S>Switch-D365ActiveDatabase</S>
+                <S>Test-D365Command</S>
+                <S>Test-D365FlightServiceCatalogId</S>
+                <S>Test-D365LabelIdIsValid</S>
+                <S>Update-D365BacpacModelFileSingleTable</S>
+                <S>Update-D365User</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="8">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-D365AzureStorageConfig</S>
+                <S>Add-D365BroadcastMessageConfig</S>
+                <S>Add-D365ModuleToRemove</S>
+                <S>Add-D365RsatWifConfigAuthorityThumbprint</S>
+                <S>Add-D365WindowsDefenderRules</S>
+                <S>Backup-D365DevConfig</S>
+                <S>Backup-D365MetaDataDir</S>
+                <S>Backup-D365Runbook</S>
+                <S>Backup-D365WebConfig</S>
+                <S>Clear-D365ActiveBroadcastMessageConfig</S>
+                <S>Clear-D365BacpacObject</S>
+                <S>Clear-D365BacpacTableData</S>
+                <S>Clear-D365MonitorData</S>
+                <S>Clear-D365TempDbTables</S>
+                <S>ConvertTo-D365Dacpac</S>
+                <S>Publish-D365SsrsReport</S>
+                <S>Disable-D365MaintenanceMode</S>
+                <S>Disable-D365SqlChangeTracking</S>
+                <S>Disable-D365User</S>
+                <S>Disable-D365Flight</S>
+                <S>Disable-D365Exception</S>
+                <S>Enable-D365Exception</S>
+                <S>Enable-D365MaintenanceMode</S>
+                <S>Enable-D365SqlChangeTracking</S>
+                <S>Enable-D365User</S>
+                <S>Enable-D365Flight</S>
+                <S>Export-D365BacpacModelFile</S>
+                <S>Export-D365Model</S>
+                <S>Export-D365SecurityDetails</S>
+                <S>Find-D365Command</S>
+                <S>Get-D365ActiveAzureStorageConfig</S>
+                <S>Get-D365ActiveBroadcastMessageConfig</S>
+                <S>Get-D365AOTObject</S>
+                <S>Get-D365AzureDevOpsNuget</S>
+                <S>Get-D365AzureStorageConfig</S>
+                <S>Get-D365AzureStorageFile</S>
+                <S>Get-D365AzureStorageUrl</S>
+                <S>Get-D365BacpacSqlOptions</S>
+                <S>Get-D365BacpacTable</S>
+                <S>Get-D365BroadcastMessage</S>
+                <S>Get-D365BroadcastMessageConfig</S>
+                <S>Get-D365ClickOnceTrustPrompt</S>
+                <S>Get-D365CompilerResult</S>
+                <S>Get-D365Database</S>
+                <S>Get-D365DatabaseAccess</S>
+                <S>Get-D365DecryptedWebConfig</S>
+                <S>Get-D365DefaultModelForNewProjects</S>
+                <S>Get-D365DotNetClass</S>
+                <S>Get-D365DotNetMethod</S>
+                <S>Get-D365Environment</S>
+                <S>Get-D365EnvironmentSettings</S>
+                <S>Get-D365EventTraceProvider</S>
+                <S>Get-D365ExternalIP</S>
+                <S>Get-D365JsonService</S>
+                <S>Get-D365InstalledHotfix</S>
+                <S>Get-D365InstalledPackage</S>
+                <S>Get-D365InstalledService</S>
+                <S>Get-D365InstanceName</S>
+                <S>Get-D365Label</S>
+                <S>Get-D365Language</S>
+                <S>Get-D365LabelFile</S>
+                <S>Get-D365LcsApiConfig</S>
+                <S>Get-D365LcsApiToken</S>
+                <S>Get-D365LcsAssetFile</S>
+                <S>Get-D365LcsSharedAssetFile</S>
+                <S>Get-D365LcsAssetValidationStatus</S>
+                <S>Get-D365LcsDatabaseBackups</S>
+                <S>Get-D365LcsDatabaseOperationStatus</S>
+                <S>Get-D365LcsDeploymentStatus</S>
+                <S>Get-D365LcsEnvironmentHistory</S>
+                <S>Get-D365LcsEnvironmentMetadata</S>
+                <S>Get-D365MaintenanceMode</S>
+                <S>Get-D365Model</S>
+                <S>Get-D365Module</S>
+                <S>Get-D365OfflineAuthenticationAdminEmail</S>
+                <S>Get-D365PackageBundleDetail</S>
+                <S>Get-D365PackageLabelResourceFile</S>
+                <S>Get-D365PackageLabelResources</S>
+                <S>Get-D365ProductInformation</S>
+                <S>Get-D365RsatCertificateThumbprint</S>
+                <S>Get-D365RsatPlaybackFile</S>
+                <S>Get-D365RsatSoapHostname</S>
+                <S>Get-D365Runbook</S>
+                <S>Get-D365RunbookId</S>
+                <S>Get-D365RunbookLogFile</S>
+                <S>Get-D365SDPCleanUp</S>
+                <S>Get-D365Table</S>
+                <S>Get-D365TableField</S>
+                <S>Get-D365TableSequence</S>
+                <S>Get-D365TablesInChangedTracking</S>
+                <S>Get-D365TfsUri</S>
+                <S>Get-D365TfsWorkspace</S>
+                <S>Get-D365Url</S>
+                <S>Get-D365User</S>
+                <S>Get-D365UserAuthenticationDetail</S>
+                <S>Get-D365VisualStudioCompilerResult</S>
+                <S>Get-D365WebServerType</S>
+                <S>Get-D365WindowsActivationStatus</S>
+                <S>Import-D365AadUser</S>
+                <S>Import-D365AadApplication</S>
+                <S>Import-D365Bacpac</S>
+                <S>Import-D365Dacpac</S>
+                <S>Import-D365Model</S>
+                <S>Import-D365ExternalUser</S>
+                <S>Import-D365RsatSelfServiceCertificates</S>
+                <S>Initialize-D365RsatCertificate</S>
+                <S>Install-D365SupportingSoftware</S>
+                <S>Invoke-D365AzCopyTransfer</S>
+                <S>Invoke-D365AzureDevOpsNugetPush</S>
+                <S>Invoke-D365AzureStorageDownload</S>
+                <S>Invoke-D365AzureStorageUpload</S>
+                <S>Invoke-D365CompilerResultAnalyzer</S>
+                <S>Invoke-D365DataFlush</S>
+                <S>Invoke-D365DbSync</S>
+                <S>Invoke-D365DbSyncPartial</S>
+                <S>Invoke-D365DbSyncModule</S>
+                <S>Invoke-D365GenerateReportAggregateDataEntity</S>
+                <S>Invoke-D365GenerateReportAggregateMeasure</S>
+                <S>Invoke-D365GenerateReportConfigKey</S>
+                <S>Invoke-D365GenerateReportConfigKeyGroup</S>
+                <S>Invoke-D365GenerateReportDataEntity</S>
+                <S>Invoke-D365GenerateReportDataEntityField</S>
+                <S>Invoke-D365GenerateReportKpi</S>
+                <S>Invoke-D365GenerateReportLicenseCode</S>
+                <S>Invoke-D365GenerateReportMenuItem</S>
+                <S>Invoke-D365GenerateReports</S>
+                <S>Invoke-D365GenerateReportSsrs</S>
+                <S>Invoke-D365GenerateReportTable</S>
+                <S>Invoke-D365GenerateReportWorkflowType</S>
+                <S>Invoke-D365InstallAzCopy</S>
+                <S>Invoke-D365InstallLicense</S>
+                <S>Invoke-D365InstallNuget</S>
+                <S>Invoke-D365InstallSqlPackage</S>
+                <S>Invoke-D365LcsApiRefreshToken</S>
+                <S>Invoke-D365LcsDatabaseExport</S>
+                <S>Invoke-D365LcsDatabaseRefresh</S>
+                <S>Invoke-D365LcsDeployment</S>
+                <S>Invoke-D365LcsEnvironmentStart</S>
+                <S>Invoke-D365LcsEnvironmentStop</S>
+                <S>Invoke-D365LcsUpload</S>
+                <S>Invoke-D365ModuleCompile</S>
+                <S>Invoke-D365ModuleLabelGeneration</S>
+                <S>Invoke-D365ModuleReportsCompile</S>
+                <S>Invoke-D365ModuleFullCompile</S>
+                <S>Invoke-D365ProcessModule</S>
+                <S>Invoke-D365ReArmWindows</S>
+                <S>Invoke-D365RunbookAnalyzer</S>
+                <S>Invoke-D365SDPInstall</S>
+                <S>Invoke-D365SCDPBundleInstall</S>
+                <S>Invoke-D365SeleniumDownload</S>
+                <S>Invoke-D365SysFlushAodCache</S>
+                <S>Invoke-D365SysRunnerClass</S>
+                <S>Invoke-D365SqlScript</S>
+                <S>Invoke-D365VisualStudioCompilerResultAnalyzer</S>
+                <S>Invoke-D365WinRmCertificateRotation</S>
+                <S>Invoke-D365TableBrowser</S>
+                <S>Invoke-D365BestPractice</S>
+                <S>New-D365Bacpac</S>
+                <S>New-D365CAReport</S>
+                <S>New-D365ISVLicense</S>
+                <S>New-D365ModuleToRemove</S>
+                <S>New-D365TopologyFile</S>
+                <S>Register-D365AzureStorageConfig</S>
+                <S>Remove-D365LcsAssetFile</S>
+                <S>Remove-D365BroadcastMessageConfig</S>
+                <S>Remove-D365Database</S>
+                <S>Remove-D365Model</S>
+                <S>Remove-D365User</S>
+                <S>Rename-D365Instance</S>
+                <S>Rename-D365ComputerName</S>
+                <S>Restart-D365Environment</S>
+                <S>Restore-D365DevConfig</S>
+                <S>Restore-D365WebConfig</S>
+                <S>Send-D365BroadcastMessage</S>
+                <S>Set-D365ActiveAzureStorageConfig</S>
+                <S>Set-D365ActiveBroadcastMessageConfig</S>
+                <S>Set-D365Admin</S>
+                <S>Set-D365AzCopyPath</S>
+                <S>Set-D365ClickOnceTrustPrompt</S>
+                <S>Set-D365DefaultModelForNewProjects</S>
+                <S>Set-D365FavoriteBookmark</S>
+                <S>Set-D365LcsApiConfig</S>
+                <S>Set-D365NugetPath</S>
+                <S>Set-D365OfflineAuthenticationAdminEmail</S>
+                <S>Set-D365RsatTier2Crypto</S>
+                <S>Set-D365RsatConfiguration</S>
+                <S>Set-D365SDPCleanUp</S>
+                <S>Set-D365StartPage</S>
+                <S>Set-D365SqlPackagePath</S>
+                <S>Set-D365SysAdmin</S>
+                <S>Set-D365WebConfigDatabase</S>
+                <S>Set-D365WebServerType</S>
+                <S>Set-D365TraceParserFileSize</S>
+                <S>Set-D365WorkstationMode</S>
+                <S>Set-D365FlightServiceCatalogId</S>
+                <S>Start-D365Environment</S>
+                <S>Start-D365EnvironmentV2</S>
+                <S>Start-D365EventTrace</S>
+                <S>Stop-D365Environment</S>
+                <S>Stop-D365EventTrace</S>
+                <S>Switch-D365ActiveDatabase</S>
+                <S>Test-D365Command</S>
+                <S>Test-D365FlightServiceCatalogId</S>
+                <S>Test-D365LabelIdIsValid</S>
+                <S>Update-D365BacpacModelFileSingleTable</S>
+                <S>Update-D365User</S>
+              </LST>
+            </Obj>
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="9">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="10">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">PSFramework</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.0.12</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:PSFramework/1.0.12</S>
+              </En>
+            </DCT>
+          </Obj>
+          <Obj RefId="11">
+            <TNRef RefId="4" />
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Azure.Storage</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">4.4.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Azure.Storage/4.4.0</S>
+              </En>
+            </DCT>
+          </Obj>
+          <Obj RefId="12">
+            <TNRef RefId="4" />
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">AzureAd</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">2.0.1.16</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:AzureAd/2.0.1.16</S>
+              </En>
+            </DCT>
+          </Obj>
+          <Obj RefId="13">
+            <TNRef RefId="4" />
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">PSNotification</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">0.5.3</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:PSNotification/0.5.3</S>
+              </En>
+            </DCT>
+          </Obj>
+          <Obj RefId="14">
+            <TNRef RefId="4" />
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">PSOAuthHelper</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">0.3.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:PSOAuthHelper/0.3.0</S>
+              </En>
+            </DCT>
+          </Obj>
+          <Obj RefId="15">
+            <TNRef RefId="4" />
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">ImportExcel</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">7.1.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:ImportExcel/7.1.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="16">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2018 Mötz Jensen &amp; Rasmus Andersen. All rights reserved.</S>
+          <S N="description">A set of tools that will assist you when working with Dynamics 365 Finance &amp; Operations development / demo machines.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">False</S>
+          <S N="isAbsoluteLatestVersion">False</S>
+          <S N="versionDownloadCount">19661</S>
+          <S N="downloadCount">208389</S>
+          <S N="packageSize">1081060</S>
+          <S N="published">11/05/2023 2:07:06 PM +10:00</S>
+          <S N="created">11/05/2023 2:07:06 PM +10:00</S>
+          <S N="lastUpdated">28/11/2023 10:24:48 PM +11:00</S>
+          <S N="tags">d365fo Dynamics365 D365 Finance&amp;Operations FinanceOperations FinanceAndOperations Dynamics365FO PSModule</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2023-11-28T22:24:48Z</S>
+          <S N="NormalizedVersion">0.6.79</S>
+          <S N="Authors">Mötz Jensen &amp; Rasmus Andersen</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">d365fo.tools.nuspec|commands.ps1|functions\invoke-d365lcsenvironmentstart.ps1|internal\functions\start-lcsdeploymentv2.ps1|tests\functions\Get-D365MaintenanceMode.Tests.ps1|functions\invoke-d365lcsenvironmentstop.ps1|internal\functions\start-lcsenvironmentstartstopv2.ps1|tests\functions\Get-D365Model.Tests.ps1|d365fo.tools.psd1|functions\invoke-d365lcsupload.ps1|internal\functions\start-lcsuploadv2.ps1|tests\functions\Get-D365Module.Tests.ps1|d365fo.tools.psm1|functions\invoke-d365modulecompile.ps1|internal\functions\test-aaduseridind365fo.ps1|tests\functions\Get-D365OfflineAuthenticationAdminEmail.Tests.ps1|readme.md|functions\invoke-d365modulefullcompile.ps1|internal\functions\test-aaduserind365fo.ps1|tests\functions\Get-D365PackageBundleDetail.Tests.ps1|resourcesAfter.ps1|functions\invoke-d365modulelabelgeneration.ps1|internal\functions\test-assembliesloaded.ps1|tests\functions\Get-D365PackageLabelResourceFile.Tests.ps1|resourcesBefore.ps1|functions\invoke-d365modulereportscompile.ps1|internal\functions\test-configstoreagelocation.ps1|tests\functions\Get-D365PackageLabelResources.Tests.ps1|bin\d365fo.tools-index.json|functions\invoke-d365processmodule.ps1|internal\functions\test-pathexists.ps1|tests\functions\Get-D365ProductInformation.Tests.ps1|bin\readme.md|functions\invoke-d365rearmwindows.ps1|internal\functions\test-registryvalue.ps1|tests\functions\Get-D365RsatCertificateThumbprint.Tests.ps1|en-us\about_d365fo.tools.help.txt|functions\invoke-d365runbookanalyzer.ps1|internal\functions\test-trustedconnection.ps1|tests\functions\Get-D365RsatPlaybackFile.Tests.ps1|en-us\about_Deployable_Packages.help.txt|functions\invoke-d365scdpbundleinstall.ps1|internal\functions\update-azurestoragevariables.ps1|tests\functions\Get-D365RsatSoapHostname.Tests.ps1|functions\add-d365azurestorageconfig.ps1|functions\invoke-d365sdpinstall.ps1|internal\functions\update-broadcastvariables.ps1|tests\functions\Get-D365Runbook.Tests.ps1|functions\add-d365broadcastmessageconfig.ps1|functions\invoke-d365seleniumdownload.ps1|internal\functions\update-lcsapivariables.ps1|tests\functions\Get-D365RunbookId.Tests.ps1|functions\add-d365moduletoremove.ps1|functions\invoke-d365sqlscript.ps1|internal\functions\update-modulevariables.ps1|tests\functions\Get-D365RunbookLogFile.Tests.ps1|functions\add-d365rsatwifconfigauthoritythumbprint.ps1|functions\invoke-d365sysflushaodcache.ps1|internal\functions\update-psfconfigvariables.ps1|tests\functions\Get-D365SDPCleanUp.Tests.ps1|functions\add-d365windowsdefenderrules.ps1|functions\invoke-d365sysrunnerclass.ps1|internal\functions\update-topologyfile.ps1|tests\functions\Get-D365Table.Tests.ps1|functions\backup-d365devconfig.ps1|functions\invoke-d365tablebrowser.ps1|internal\misc\AzureDevOps.url|tests\functions\Get-D365TableField.Tests.ps1|functions\backup-d365metadatadir.ps1|functions\invoke-d365visualstudiocompilerresultanalyzer.ps1|internal\misc\D365FO.url|tests\functions\Get-D365TableSequence.Tests.ps1|functions\backup-d365runbook.ps1|functions\invoke-d365winrmcertificaterotation.ps1|internal\scripts\enums.ps1|tests\functions\Get-D365TablesInChangedTracking.Tests.ps1|functions\backup-d365webconfig.ps1|functions\new-d365bacpac.ps1|internal\scripts\license.ps1|tests\functions\Get-D365TfsUri.Tests.ps1|functions\clear-d365activebroadcastmessageconfig.ps1|functions\new-d365careport.ps1|internal\scripts\load-dotnet-assemblies.ps1|tests\functions\Get-D365TfsWorkspace.Tests.ps1|functions\clear-d365bacpacobject.ps1|functions\new-d365isvlicense.ps1|internal\scripts\postimport.ps1|tests\functions\Get-D365Url.Tests.ps1|functions\clear-d365bacpactabledata.ps1|functions\new-d365moduletoremove.ps1|internal\scripts\preimport.ps1|tests\functions\Get-D365User.Tests.ps1|functions\clear-d365monitordata.ps1|functions\new-d365topologyfile.ps1|internal\scripts\variables.ps1|tests\functions\Get-D365UserAuthenticationDetail.Tests.ps1|functions\clear-d365tempdbtables.ps1|functions\publish-d365ssrsreport.ps1|internal\sql\add-aadapplicationintod365fo.sql|tests\functions\Get-D365VisualStudioCompilerResult.Tests.ps1|functions\convertto-d365dacpac.ps1|functions\register-d365azurestorageconfig.ps1|internal\sql\add-aaduserintod365fo.sql|tests\functions\Get-D365WebServerType.Tests.ps1|functions\disable-d365exception.ps1|functions\remove-d365broadcastmessageconfig.ps1|internal\sql\add-bacpacdatabase.sql|tests\functions\Get-D365WindowsActivationStatus.Tests.ps1|functions\disable-d365flight.ps1|functions\remove-d365database.ps1|internal\sql\backuprestoredb.sql|tests\functions\Import-D365AadApplication.Tests.ps1|functions\disable-d365maintenancemode.ps1|functions\remove-d365lcsassetfile.ps1|internal\sql\checkfornewazuredb.sql|tests\functions\Import-D365AadUser.Tests.ps1|functions\disable-d365sqlchangetracking.ps1|functions\remove-d365model.ps1|internal\sql\clear-azurebacpacdatabase.sql|tests\functions\Import-D365Bacpac.Tests.ps1|functions\disable-d365user.ps1|functions\remove-d365user.ps1|internal\sql\clear-d365tempdbtables.sql|tests\functions\Import-D365Dacpac.Tests.ps1|functions\enable-d365exception.ps1|functions\rename-d365computername.ps1|internal\sql\clear-sqlbacpacdatabase.sql|tests\functions\Import-D365ExternalUser.Tests.ps1|functions\enable-d365flight.ps1|functions\rename-d365instance.ps1|internal\sql\disable-changetracking.sql|tests\functions\Import-D365Model.Tests.ps1|functions\enable-d365maintenancemode.ps1|functions\restart-d365environment.ps1|internal\sql\disable-flight.sql|tests\functions\Import-D365RsatSelfServiceCertificates.Tests.ps1|functions\enable-d365sqlchangetracking.ps1|functions\restore-d365devconfig.ps1|internal\sql\disable-maintenancemode.sql|tests\functions\Initialize-D365RsatCertificate.Tests.ps1|functions\enable-d365user.ps1|functions\restore-d365webconfig.ps1|internal\sql\disable-user.sql|tests\functions\Install-D365SupportingSoftware.Tests.ps1|functions\export-d365bacpacmodelfile.ps1|functions\send-d365broadcastmessage.ps1|internal\sql\enable-changetracking.sql|tests\functions\Invoke-D365AzCopyTransfer.Tests.ps1|functions\export-d365model.ps1|functions\set-d365activeazurestorageconfig.ps1|internal\sql\enable-flight.sql|tests\functions\Invoke-D365AzureDevOpsNugetPush.Tests.ps1|functions\export-d365securitydetails.ps1|functions\set-d365activebroadcastmessageconfig.ps1|internal\sql\enable-maintenancemode.sql|tests\functions\Invoke-D365AzureStorageDownload.Tests.ps1|functions\find-d365command.ps1|functions\set-d365admin.ps1|internal\sql\enable-user.sql|tests\functions\Invoke-D365AzureStorageUpload.Tests.ps1|functions\get-d365activeazurestorageconfig.ps1|functions\set-d365azcopypath.ps1|internal\sql\get-alltablefields.sql|tests\functions\Invoke-D365BestPractice.Tests.ps1|functions\get-d365activebroadcastmessageconfig.ps1|functions\set-d365clickoncetrustprompt.ps1|internal\sql\get-azureserviceobjective.sql|tests\functions\Invoke-D365CompilerResultAnalyzer.Tests.ps1|functions\get-d365aotobject.ps1|functions\set-d365defaultmodelfornewprojects.ps1|internal\sql\get-broadcastmessage.sql|tests\functions\Invoke-D365DataFlush.Tests.ps1|functions\get-d365azuredevopsnuget.ps1|functions\set-d365favoritebookmark.ps1|internal\sql\get-broadcastmessageactive.sql|tests\functions\Invoke-D365DBSync.Tests.ps1|functions\get-d365azurestorageconfig.ps1|functions\set-d365flightservicecatalogid.ps1|internal\sql\get-database.sql|tests\functions\Invoke-D365DbSyncModule.Tests.ps1|functions\get-d365azurestoragefile.ps1|functions\set-d365lcsapiconfig.ps1|internal\sql\get-instancevalues.sql|tests\functions\Invoke-D365DBSyncPartial.Tests.ps1|functions\get-d365azurestorageurl.ps1|functions\set-d365nugetpath.ps1|internal\sql\get-maintenancemode.sql|tests\functions\Invoke-D365GenerateReportAggregateDataEntity.Tests.ps1|functions\get-d365bacpacsqloptions.ps1|functions\set-d365offlineauthenticationadminemail.ps1|internal\sql\get-tablefields.sql|tests\functions\Invoke-D365GenerateReportAggregateMeasure.Tests.ps1|functions\get-d365bacpactable.ps1|functions\set-d365rsatconfiguration.ps1|internal\sql\get-tables.sql|tests\functions\Invoke-D365GenerateReportConfigKey.Tests.ps1|functions\get-d365broadcastmessage.ps1|functions\set-d365rsattier2crypto.ps1|internal\sql\get-tablesequence.sql|tests\functions\Invoke-D365GenerateReportConfigKeyGroup.Tests.ps1|functions\get-d365broadcastmessageconfig.ps1|functions\set-d365sdpcleanup.ps1|internal\sql\get-tablesinchangedtracking.sql|tests\functions\Invoke-D365GenerateReportDataEntity.Tests.ps1|functions\get-d365clickoncetrustprompt.ps1|functions\set-d365sqlpackagepath.ps1|internal\sql\get-user.sql|tests\functions\Invoke-D365GenerateReportDataEntityField.Tests.ps1|functions\get-d365compilerresult.ps1|functions\set-d365startpage.ps1|internal\sql\invoke-sphelp.sql|tests\functions\Invoke-D365GenerateReportKpi.Tests.ps1|functions\get-d365database.ps1|functions\set-d365sysadmin.ps1|internal\sql\newazuredbfromcopy.sql|tests\functions\Invoke-D365GenerateReportLicenseCode.Tests.ps1|functions\get-d365databaseaccess.ps1|functions\set-d365traceparserfilesize.ps1|internal\sql\remove-database.sql|tests\functions\Invoke-D365GenerateReportMenuItem.Tests.ps1|functions\get-d365decryptedwebconfig.ps1|functions\set-d365webconfigdatabase.ps1|internal\sql\remove-user.sql|tests\functions\Invoke-D365GenerateReports.Tests.ps1|functions\get-d365defaultmodelfornewprojects.ps1|functions\set-d365webservertype.ps1|internal\sql\rename-computer.sql|tests\functions\Invoke-D365GenerateReportSsrs.Tests.ps1|functions\get-d365dotnetclass.ps1|functions\set-d365workstationmode.ps1|internal\sql\set-aadusersecurityind365fo.sql|tests\functions\Invoke-D365GenerateReportTable.Tests.ps1|functions\get-d365dotnetmethod.ps1|functions\start-d365environment.ps1|internal\sql\set-bacpacvaluesazure.sql|tests\functions\Invoke-D365GenerateReportWorkflowType.Tests.ps1|functions\get-d365environment.ps1|functions\start-d365environmentv2.ps1|internal\sql\set-bacpacvaluessql.sql|tests\functions\Invoke-D365InstallAzCopy.Tests.ps1|functions\get-d365environmentsettings.ps1|functions\start-d365eventtrace.ps1|internal\sql\set-sysadmin.sql|tests\functions\Invoke-D365InstallLicense.Tests.ps1|functions\get-d365eventtraceprovider.ps1|functions\stop-d365environment.ps1|internal\sql\switch-database-tier1.sql|tests\functions\Invoke-D365InstallNuget.Tests.ps1|functions\get-d365externalip.ps1|functions\stop-d365eventtrace.ps1|internal\sql\switch-database-tier2.sql|tests\functions\Invoke-D365InstallSqlPackage.Tests.ps1|functions\get-d365installedhotfix.ps1|functions\switch-d365activedatabase.ps1|internal\sql\test-aaduseridind365fo.sql|tests\functions\Invoke-D365LcsApiRefreshToken.Tests.ps1|functions\get-d365installedpackage.ps1|functions\test-d365command.ps1|internal\sql\test-aaduserind365fo.sql|tests\functions\Invoke-D365LcsDatabaseExport.Tests.ps1|functions\get-d365installedservice.ps1|functions\test-d365flightservicecatalogid.ps1|internal\sql\update-user.sql|tests\functions\Invoke-D365LcsDatabaseRefresh.Tests.ps1|functions\get-d365instancename.ps1|functions\test-d365labelidisvalid.ps1|internal\tepp\assignment.ps1|tests\functions\Invoke-D365LcsDeployment.Tests.ps1|functions\get-d365jsonservice.ps1|functions\update-d365bacpacmodelfilesingletable.ps1|internal\tepp\eventtrace.tepp.ps1|tests\functions\Invoke-D365LcsEnvironmentStart.Tests.ps1|functions\get-d365label.ps1|functions\update-d365user.ps1|internal\tepp\example.tepp.ps1|tests\functions\Invoke-D365LcsEnvironmentStop.Tests.ps1|functions\get-d365labelfile.ps1|internal\configurations\configuration.ps1|internal\tepp\lcs.tepp.ps1|tests\functions\Invoke-D365LcsUpload.Tests.ps1|functions\get-d365language.ps1|internal\configurations\readme.md|internal\tepp\readme.md|tests\functions\Invoke-D365ModuleCompile.Tests.ps1|functions\get-d365lcsapiconfig.ps1|internal\dll\Microsoft.IdentityModel.Clients.ActiveDirectory.dll|internal\tepp\send-d365message.tepp.ps1|tests\functions\Invoke-D365ModuleFullCompile.Tests.ps1|functions\get-d365lcsapitoken.ps1|internal\dll\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll|tests\pester-PSScriptAnalyzer.ps1|tests\functions\Invoke-D365ModuleLabelGeneration.Tests.ps1|functions\get-d365lcsassetfile.ps1|internal\functions\add-aadusersecurity.ps1|tests\pester.ps1|tests\functions\Invoke-D365ModuleReportsCompile.Tests.ps1|functions\get-d365lcsassetvalidationstatus.ps1|internal\functions\add-filetopackage.ps1|tests\readme.md|tests\functions\Invoke-D365ProcessModule.Tests.ps1|functions\get-d365lcsdatabasebackups.ps1|internal\functions\backup-file.ps1|tests\examples\Get-DeepClone.Tests.ps1|tests\functions\Invoke-D365ReArmWindows.Tests.ps1|functions\get-d365lcsdatabaseoperationstatus.ps1|internal\functions\complete-lcsuploadv2.ps1|tests\examples\Import-D365Bacpac.Tests.ps1|tests\functions\Invoke-D365RunbookAnalyzer.Tests.ps1|functions\get-d365lcsdeploymentstatus.ps1|internal\functions\convert-hashtoargstringswitch.ps1|tests\examples\Test-TrustedConnection.Tests.ps1|tests\functions\Invoke-D365SCDPBundleInstall.Tests.ps1|functions\get-d365lcsenvironmenthistory.ps1|internal\functions\convertto-booleanordefault.ps1|tests\functions\Add-D365AzureStorageConfig.Tests.ps1|tests\functions\Invoke-D365SDPInstall.Tests.ps1|functions\get-d365lcsenvironmentmetadata.ps1|internal\functions\convertto-hashtable.ps1|tests\functions\Add-D365BroadcastMessageConfig.Tests.ps1|tests\functions\Invoke-D365SeleniumDownload.Tests.ps1|functions\get-d365lcssharedassetfile.ps1|internal\functions\convertto-pscustomobject.ps1|tests\functions\Add-D365ModuleToRemove.Tests.ps1|tests\functions\Invoke-D365SqlScript.Tests.ps1|functions\get-d365maintenancemode.ps1|internal\functions\copy-filetolcsblob.ps1|tests\functions\Add-D365RsatWifConfigAuthorityThumbprint.Tests.ps1|tests\functions\Invoke-D365SysFlushAodCache.Tests.ps1|functions\get-d365model.ps1|internal\functions\get-applicationenvironment.ps1|tests\functions\Add-D365WindowsDefenderRules.Tests.ps1|tests\functions\Invoke-D365SysRunnerClass.Tests.ps1|functions\get-d365module.ps1|internal\functions\get-asyncresult.ps1|tests\functions\Backup-D365DevConfig.Tests.ps1|tests\functions\Invoke-D365TableBrowser.Tests.ps1|functions\get-d365offlineauthenticationadminemail.ps1|internal\functions\get-axaggregatedimensions.ps1|tests\functions\Backup-D365MetaDataDir.Tests.ps1|tests\functions\Invoke-D365VisualStudioCompilerResultAnalyzer.Tests.ps1|functions\get-d365packagebundledetail.ps1|internal\functions\get-axaggregatemeasures.ps1|tests\functions\Backup-D365Runbook.Tests.ps1|tests\functions\Invoke-D365WinRmCertificateRotation.Tests.ps1|functions\get-d365packagelabelresourcefile.ps1|internal\functions\get-axdataentities.ps1|tests\functions\Backup-D365WebConfig.Tests.ps1|tests\functions\New-D365Bacpac.Tests.ps1|functions\get-d365packagelabelresources.ps1|internal\functions\get-axforms.ps1|tests\functions\Clear-D365ActiveBroadcastMessageConfig.Tests.ps1|tests\functions\New-D365CAReport.Tests.ps1|functions\get-d365productinformation.ps1|internal\functions\get-axviews.ps1|tests\functions\Clear-D365BacpacObject.Tests.ps1|tests\functions\New-D365ISVLicense.Tests.ps1|functions\get-d365rsatcertificatethumbprint.ps1|internal\functions\get-azureserviceobjective.ps1|tests\functions\Clear-D365BacpacTableData.Tests.ps1|tests\functions\New-D365ModuleToRemove.Tests.ps1|functions\get-d365rsatplaybackfile.ps1|internal\functions\get-backupname.ps1|tests\functions\Clear-D365MonitorData.Tests.ps1|tests\functions\New-D365TopologyFile.Tests.ps1|functions\get-d365rsatsoaphostname.ps1|internal\functions\get-canonicalidentityprovider.ps1|tests\functions\Clear-D365TempDbTables.Tests.ps1|tests\functions\Publish-D365SsrsReport.Tests.ps1|functions\get-d365runbook.ps1|internal\functions\get-compilerresult.ps1|tests\functions\ConvertTo-D365Dacpac.Tests.ps1|tests\functions\Register-D365AzureStorageConfig.Tests.ps1|functions\get-d365runbookid.ps1|internal\functions\get-deepclone.ps1|tests\functions\Disable-D365Exception.Tests.ps1|tests\functions\Remove-D365BroadcastMessageConfig.Tests.ps1|functions\get-d365runbooklogfile.ps1|internal\functions\get-fileversion.ps1|tests\functions\Disable-D365Flight.Tests.ps1|tests\functions\Remove-D365Database.Tests.ps1|functions\get-d365sdpcleanup.ps1|internal\functions\get-identityprovider.ps1|tests\functions\Disable-D365MaintenanceMode.Tests.ps1|tests\functions\Remove-D365LcsAssetFile.Tests.ps1|functions\get-d365table.ps1|internal\functions\get-instanceidentityprovider.ps1|tests\functions\Disable-D365SqlChangeTracking.Tests.ps1|tests\functions\Remove-D365Model.Tests.ps1|functions\get-d365tablefield.ps1|internal\functions\get-instancevalues.ps1|tests\functions\Disable-D365User.Tests.ps1|tests\functions\Remove-D365User.Tests.ps1|functions\get-d365tablesequence.ps1|internal\functions\get-lcsassetfilev2.ps1|tests\functions\Enable-D365Exception.Tests.ps1|tests\functions\Rename-D365ComputerName.Tests.ps1|functions\get-d365tablesinchangedtracking.ps1|internal\functions\get-lcsassetvalidationstatusv2.ps1|tests\functions\Enable-D365Flight.Tests.ps1|tests\functions\Rename-D365Instance.Tests.ps1|functions\get-d365tfsuri.ps1|internal\functions\get-lcsdatabasebackupsv2.ps1|tests\functions\Enable-D365MaintenanceMode.Tests.ps1|tests\functions\Restart-D365Environment.Tests.ps1|functions\get-d365tfsworkspace.ps1|internal\functions\get-lcsdatabaseoperationstatusv2.ps1|tests\functions\Enable-D365SqlChangeTracking.Tests.ps1|tests\functions\Restore-D365DevConfig.Tests.ps1|functions\get-d365url.ps1|internal\functions\get-lcsdeploymentstatusv2.ps1|tests\functions\Enable-D365User.Tests.ps1|tests\functions\Restore-D365WebConfig.Tests.ps1|functions\get-d365user.ps1|internal\functions\get-lcsenvironmenthistory.ps1|tests\functions\Export-D365BacpacModelFile.Tests.ps1|tests\functions\Send-D365BroadcastMessage.Tests.ps1|functions\get-d365userauthenticationdetail.ps1|internal\functions\get-lcsenvironmentmetadata.ps1|tests\functions\Export-D365Model.Tests.ps1|tests\functions\Set-D365ActiveAzureStorageConfig.Tests.ps1|functions\get-d365visualstudiocompilerresult.ps1|internal\functions\get-lcsfileasset.ps1|tests\functions\Export-D365SecurityDetails.Tests.ps1|tests\functions\Set-D365ActiveBroadcastMessageConfig.Tests.ps1|functions\get-d365webservertype.ps1|internal\functions\get-lcssharedassetfile.ps1|tests\functions\Find-D365Command.Tests.ps1|tests\functions\Set-D365Admin.Tests.ps1|functions\get-d365windowsactivationstatus.ps1|internal\functions\get-loginfromemail.ps1|tests\functions\Get-D365ActiveAzureStorageConfig.Tests.ps1|tests\functions\Set-D365AzCopyPath.Tests.ps1|functions\import-d365aadapplication.ps1|internal\functions\get-networkdomain.ps1|tests\functions\Get-D365ActiveBroadcastMessageConfig.Tests.ps1|tests\functions\Set-D365ClickOnceTrustPrompt.Tests.ps1|functions\import-d365aaduser.ps1|internal\functions\get-productinfoprovider.ps1|tests\functions\Get-D365AOTObject.Tests.ps1|tests\functions\Set-D365DefaultModelForNewProjects.Tests.ps1|functions\import-d365bacpac.ps1|internal\functions\get-servicelist.ps1|tests\functions\Get-D365AzureDevOpsNuget.Tests.ps1|tests\functions\Set-D365FavoriteBookmark.Tests.ps1|functions\import-d365dacpac.ps1|internal\functions\get-sqlcommand.ps1|tests\functions\Get-D365AzureStorageConfig.Tests.ps1|tests\functions\Set-D365FlightServiceCatalogId.Tests.ps1|functions\import-d365externaluser.ps1|internal\functions\get-sqlparametersize.ps1|tests\functions\Get-D365AzureStorageFile.Tests.ps1|tests\functions\Set-D365LcsApiConfig.Tests.ps1|functions\import-d365model.ps1|internal\functions\get-sqlparametervalue.ps1|tests\functions\Get-D365AzureStorageUrl.Tests.ps1|tests\functions\Set-D365NugetPath.Tests.ps1|functions\import-d365rsatselfservicecertificates.ps1|internal\functions\get-sqlstring.ps1|tests\functions\Get-D365BacpacSqlOptions.Tests.ps1|tests\functions\Set-D365OfflineAuthenticationAdminEmail.Tests.ps1|functions\initialize-d365rsatcertificate.ps1|internal\functions\get-syncelements.ps1|tests\functions\Get-D365BacpacTable.Tests.ps1|tests\functions\Set-D365RsatConfiguration.Tests.ps1|functions\install-d365supportingsoftware.ps1|internal\functions\get-tenantfromemail.ps1|tests\functions\Get-D365BroadcastMessage.Tests.ps1|tests\functions\Set-D365RsatTier2Crypto.Tests.ps1|functions\invoke-d365azcopytransfer.ps1|internal\functions\get-timezone.ps1|tests\functions\Get-D365BroadcastMessageConfig.Tests.ps1|tests\functions\Set-D365SDPCleanUp.Tests.ps1|functions\invoke-d365azuredevopsnugetpush.ps1|internal\functions\get-usersidfromaad.ps1|tests\functions\Get-D365ClickOnceTrustPrompt.Tests.ps1|tests\functions\Set-D365SqlPackagePath.Tests.ps1|functions\invoke-d365azurestoragedownload.ps1|internal\functions\get-windowsdefenderstatus.ps1|tests\functions\Get-D365CompilerResult.Tests.ps1|tests\functions\Set-D365StartPage.Tests.ps1|functions\invoke-d365azurestorageupload.ps1|internal\functions\import-aadapplicationIntod365fo.ps1|tests\functions\Get-D365Database.Tests.ps1|tests\functions\Set-D365SysAdmin.Tests.ps1|functions\invoke-d365bestpractice.ps1|internal\functions\import-aaduserIntod365fo.ps1|tests\functions\Get-D365DatabaseAccess.Tests.ps1|tests\functions\Set-D365TraceParserFileSize.Tests.ps1|functions\invoke-d365compilerresultanalyzer.ps1|internal\functions\import-assemblyfileintomemory.ps1|tests\functions\Get-D365DecryptedWebConfig.Tests.ps1|tests\functions\Set-D365WebConfigDatabase.Tests.ps1|functions\invoke-d365dataflush.ps1|internal\functions\import-generatereportassemblies.ps1|tests\functions\Get-D365DefaultModelForNewProjects.Tests.ps1|tests\functions\Set-D365WebServerType.Tests.ps1|functions\invoke-d365dbsync.ps1|internal\functions\invoke-azurebackuprestore.ps1|tests\functions\Get-D365DotNetClass.Tests.ps1|tests\functions\Set-D365WorkstationMode.Tests.ps1|functions\invoke-d365dbsyncmodule.ps1|internal\functions\invoke-clearazurespecificobjects.ps1|tests\functions\Get-D365DotNetMethod.Tests.ps1|tests\functions\Start-D365Environment.Tests.ps1|functions\invoke-d365dbsyncpartial.ps1|internal\functions\invoke-clearsqlspecificobjects.ps1|tests\functions\Get-D365Environment.Tests.ps1|tests\functions\Start-D365EnvironmentV2.Tests.ps1|functions\invoke-d365generatereportaggregatedataentity.ps1|internal\functions\invoke-compilerresultanalyzer.ps1|tests\functions\Get-D365EnvironmentSettings.Tests.ps1|tests\functions\Start-D365EventTrace.Tests.ps1|functions\invoke-d365generatereportaggregatemeasure.ps1|internal\functions\invoke-modelutil.ps1|tests\functions\Get-D365EventTraceProvider.Tests.ps1|tests\functions\Stop-D365Environment.Tests.ps1|functions\invoke-d365generatereportconfigkey.ps1|internal\functions\invoke-process.ps1|tests\functions\Get-D365ExternalIP.Tests.ps1|tests\functions\Stop-D365EventTrace.Tests.ps1|functions\invoke-d365generatereportconfigkeygroup.ps1|internal\functions\invoke-requesthandler.ps1|tests\functions\Get-D365InstalledHotfix.Tests.ps1|tests\functions\Switch-D365ActiveDatabase.Tests.ps1|functions\invoke-d365generatereportdataentity.ps1|internal\functions\invoke-sqlbackuprestore.ps1|tests\functions\Get-D365InstalledPackage.Tests.ps1|tests\functions\Test-D365Command.Tests.ps1|functions\invoke-d365generatereportdataentityfield.ps1|internal\functions\invoke-sqlpackage.ps1|tests\functions\Get-D365InstalledService.Tests.ps1|tests\functions\Test-D365FlightServiceCatalogId.Tests.ps1|functions\invoke-d365generatereportkpi.ps1|internal\functions\invoke-timesignal.ps1|tests\functions\Get-D365InstanceName.Tests.ps1|tests\functions\Test-D365LabelIdIsValid.Tests.ps1|functions\invoke-d365generatereportlicensecode.ps1|internal\functions\new-d365foaadapplication.ps1|tests\functions\Get-D365JsonService.Tests.ps1|tests\functions\Update-D365BacpacModelFileSingleTable.Tests.ps1|functions\invoke-d365generatereportmenuitem.ps1|internal\functions\new-d365fouser.ps1|tests\functions\Get-D365Label.Tests.ps1|tests\functions\Update-D365User.Tests.ps1|functions\invoke-d365generatereports.ps1|internal\functions\new-d365selfsignedcertificate.ps1|tests\functions\Get-D365LabelFile.Tests.ps1|tests\general\FileIntegrity.Exceptions.ps1|functions\invoke-d365generatereportssrs.ps1|internal\functions\new-decryptedfile.ps1|tests\functions\Get-D365Language.Tests.ps1|tests\general\FileIntegrity.Tests.ps1|functions\invoke-d365generatereporttable.ps1|internal\functions\new-webrequest.ps1|tests\functions\Get-D365LcsApiConfig.Tests.ps1|tests\general\Help.Example.Parameters.Tests.ps1|functions\invoke-d365generatereportworkflowtype.ps1|internal\functions\readme.md|tests\functions\Get-D365LcsApiToken.Tests.ps1|tests\general\Help.Example.Tests.ps1|functions\invoke-d365installazcopy.ps1|internal\functions\remove-lcsassetfile.ps1|tests\functions\Get-D365LcsAssetFile.Tests.ps1|tests\general\Help.Exceptions.ps1|functions\invoke-d365installlicense.ps1|internal\functions\rename-configvalue.ps1|tests\functions\Get-D365LcsAssetValidationStatus.Tests.ps1|tests\general\Help.Tests.ps1|functions\invoke-d365installnuget.ps1|internal\functions\select-defaultview.ps1|tests\functions\Get-D365LcsDatabaseBackups.Tests.ps1|tests\general\Manifest.Tests.ps1|functions\invoke-d365installsqlpackage.ps1|internal\functions\set-adminuser.ps1|tests\functions\Get-D365LcsDatabaseOperationStatus.Tests.ps1|tests\general\PSScriptAnalyzer.Tests.ps1|functions\invoke-d365lcsapirefreshtoken.ps1|internal\functions\set-azurebacpacvalues.ps1|tests\functions\Get-D365LcsDeploymentStatus.Tests.ps1|xml\d365fo.tools.Format.ps1xml|functions\invoke-d365lcsdatabaseexport.ps1|internal\functions\set-sqlbacpacvalues.ps1|tests\functions\Get-D365LcsEnvironmentHistory.Tests.ps1|xml\d365fo.tools.Types.ps1xml|functions\invoke-d365lcsdatabaserefresh.ps1|internal\functions\start-lcsdatabaseexportv2.ps1|tests\functions\Get-D365LcsEnvironmentMetadata.Tests.ps1|xml\readme.md|functions\invoke-d365lcsdeployment.ps1|internal\functions\start-lcsdatabaserefreshv2.ps1|tests\functions\Get-D365LcsSharedAssetFile.Tests.ps1</S>
+          <S N="Functions">Add-D365AzureStorageConfig Add-D365BroadcastMessageConfig Add-D365ModuleToRemove Add-D365RsatWifConfigAuthorityThumbprint Add-D365WindowsDefenderRules Backup-D365DevConfig Backup-D365MetaDataDir Backup-D365Runbook Backup-D365WebConfig Clear-D365ActiveBroadcastMessageConfig Clear-D365BacpacObject Clear-D365BacpacTableData Clear-D365MonitorData Clear-D365TempDbTables ConvertTo-D365Dacpac Publish-D365SsrsReport Disable-D365MaintenanceMode Disable-D365SqlChangeTracking Disable-D365User Disable-D365Flight Disable-D365Exception Enable-D365Exception Enable-D365MaintenanceMode Enable-D365SqlChangeTracking Enable-D365User Enable-D365Flight Export-D365BacpacModelFile Export-D365Model Export-D365SecurityDetails Find-D365Command Get-D365ActiveAzureStorageConfig Get-D365ActiveBroadcastMessageConfig Get-D365AOTObject Get-D365AzureDevOpsNuget Get-D365AzureStorageConfig Get-D365AzureStorageFile Get-D365AzureStorageUrl Get-D365BacpacSqlOptions Get-D365BacpacTable Get-D365BroadcastMessage Get-D365BroadcastMessageConfig Get-D365ClickOnceTrustPrompt Get-D365CompilerResult Get-D365Database Get-D365DatabaseAccess Get-D365DecryptedWebConfig Get-D365DefaultModelForNewProjects Get-D365DotNetClass Get-D365DotNetMethod Get-D365Environment Get-D365EnvironmentSettings Get-D365EventTraceProvider Get-D365ExternalIP Get-D365JsonService Get-D365InstalledHotfix Get-D365InstalledPackage Get-D365InstalledService Get-D365InstanceName Get-D365Label Get-D365Language Get-D365LabelFile Get-D365LcsApiConfig Get-D365LcsApiToken Get-D365LcsAssetFile Get-D365LcsSharedAssetFile Get-D365LcsAssetValidationStatus Get-D365LcsDatabaseBackups Get-D365LcsDatabaseOperationStatus Get-D365LcsDeploymentStatus Get-D365LcsEnvironmentHistory Get-D365LcsEnvironmentMetadata Get-D365MaintenanceMode Get-D365Model Get-D365Module Get-D365OfflineAuthenticationAdminEmail Get-D365PackageBundleDetail Get-D365PackageLabelResourceFile Get-D365PackageLabelResources Get-D365ProductInformation Get-D365RsatCertificateThumbprint Get-D365RsatPlaybackFile Get-D365RsatSoapHostname Get-D365Runbook Get-D365RunbookId Get-D365RunbookLogFile Get-D365SDPCleanUp Get-D365Table Get-D365TableField Get-D365TableSequence Get-D365TablesInChangedTracking Get-D365TfsUri Get-D365TfsWorkspace Get-D365Url Get-D365User Get-D365UserAuthenticationDetail Get-D365VisualStudioCompilerResult Get-D365WebServerType Get-D365WindowsActivationStatus Import-D365AadUser Import-D365AadApplication Import-D365Bacpac Import-D365Dacpac Import-D365Model Import-D365ExternalUser Import-D365RsatSelfServiceCertificates Initialize-D365RsatCertificate Install-D365SupportingSoftware Invoke-D365AzCopyTransfer Invoke-D365AzureDevOpsNugetPush Invoke-D365AzureStorageDownload Invoke-D365AzureStorageUpload Invoke-D365CompilerResultAnalyzer Invoke-D365DataFlush Invoke-D365DbSync Invoke-D365DbSyncPartial Invoke-D365DbSyncModule Invoke-D365GenerateReportAggregateDataEntity Invoke-D365GenerateReportAggregateMeasure Invoke-D365GenerateReportConfigKey Invoke-D365GenerateReportConfigKeyGroup Invoke-D365GenerateReportDataEntity Invoke-D365GenerateReportDataEntityField Invoke-D365GenerateReportKpi Invoke-D365GenerateReportLicenseCode Invoke-D365GenerateReportMenuItem Invoke-D365GenerateReports Invoke-D365GenerateReportSsrs Invoke-D365GenerateReportTable Invoke-D365GenerateReportWorkflowType Invoke-D365InstallAzCopy Invoke-D365InstallLicense Invoke-D365InstallNuget Invoke-D365InstallSqlPackage Invoke-D365LcsApiRefreshToken Invoke-D365LcsDatabaseExport Invoke-D365LcsDatabaseRefresh Invoke-D365LcsDeployment Invoke-D365LcsEnvironmentStart Invoke-D365LcsEnvironmentStop Invoke-D365LcsUpload Invoke-D365ModuleCompile Invoke-D365ModuleLabelGeneration Invoke-D365ModuleReportsCompile Invoke-D365ModuleFullCompile Invoke-D365ProcessModule Invoke-D365ReArmWindows Invoke-D365RunbookAnalyzer Invoke-D365SDPInstall Invoke-D365SCDPBundleInstall Invoke-D365SeleniumDownload Invoke-D365SysFlushAodCache Invoke-D365SysRunnerClass Invoke-D365SqlScript Invoke-D365VisualStudioCompilerResultAnalyzer Invoke-D365WinRmCertificateRotation Invoke-D365TableBrowser Invoke-D365BestPractice New-D365Bacpac New-D365CAReport New-D365ISVLicense New-D365ModuleToRemove New-D365TopologyFile Register-D365AzureStorageConfig Remove-D365LcsAssetFile Remove-D365BroadcastMessageConfig Remove-D365Database Remove-D365Model Remove-D365User Rename-D365Instance Rename-D365ComputerName Restart-D365Environment Restore-D365DevConfig Restore-D365WebConfig Send-D365BroadcastMessage Set-D365ActiveAzureStorageConfig Set-D365ActiveBroadcastMessageConfig Set-D365Admin Set-D365AzCopyPath Set-D365ClickOnceTrustPrompt Set-D365DefaultModelForNewProjects Set-D365FavoriteBookmark Set-D365LcsApiConfig Set-D365NugetPath Set-D365OfflineAuthenticationAdminEmail Set-D365RsatTier2Crypto Set-D365RsatConfiguration Set-D365SDPCleanUp Set-D365StartPage Set-D365SqlPackagePath Set-D365SysAdmin Set-D365WebConfigDatabase Set-D365WebServerType Set-D365TraceParserFileSize Set-D365WorkstationMode Set-D365FlightServiceCatalogId Start-D365Environment Start-D365EnvironmentV2 Start-D365EventTrace Stop-D365Environment Stop-D365EventTrace Switch-D365ActiveDatabase Test-D365Command Test-D365FlightServiceCatalogId Test-D365LabelIdIsValid Update-D365BacpacModelFileSingleTable Update-D365User</S>
+          <S N="GUID">7c7b26d4-f764-4cb0-a692-459a0a689dbb</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="CompanyName">Essence Solutions</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\darren.a.robinson\Documents\PowerShell\Modules\d365fo.tools\0.6.79</S>
+    </MS>
+  </Obj>
+</Objs>
